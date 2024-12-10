@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.login {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.signup-button {
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px
+}
+
+.heading {
+    color: white;
+}
+
+.subheading {
+    color: white;
+}
+
+.hero-section {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.textfield {
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 10px;
+    width: 400px
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.submit-button {
+    width: fit-content;
+    height: 50px;
+    border-radius: 12px;
+    padding: 0 20px;
+
+}
+
+.hero-image {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.suggestion-section {
+    margin: 0 20p;
+    padding: 0 20px;
+
+
+}
+
+.suggestion-heading {
+    font-weight: 700;
+
+}
+
+.suggestion-item-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(236, 233, 233);
+    padding: 2px 20px;
+}
+.suggestion-image{
+    width:150px;
+    height: 150px;
+}
+.title{
+    font-weight: 800;
+}
+.suggestion-button{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 14px;
+}
+.suggestion-button:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+@media(max-width: 510px) {
+    .suggestion-item-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
